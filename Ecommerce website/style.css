@@ -1,0 +1,54 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.hero {
+	background-image: url('hero.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #3cec0b;
+	padding: 100px 20px;
+	text-align: center;
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+
+.product {
+	flex: 1;
+	margin: 20px;
+}
+
+.product img {
+	width: 100%;
+}
+
+.product h3 {
+	margin: 10px 
+}
